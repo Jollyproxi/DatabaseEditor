@@ -12,6 +12,9 @@ cd ..
 
 cd back
 pip install websockets
+pip install numpy
+pip install pandas
+pip install scikit-learn
 start "" /B py back.py
 cd ../
 
